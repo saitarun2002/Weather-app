@@ -1,0 +1,67 @@
+.card {
+  margin: 10px;
+  border-radius: 10px;
+  padding: 20px;
+  background: white;
+  background-size: 400% 400%;
+  animation: gradient 8s ease infinite;
+  color: blue;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+  width: 80vh;
+  height: 60vh;
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px,
+    rgba(0, 0, 0, 0.3) 0px 30px 60px -30px,
+    rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
+}
+
+@keyframes gradient {
+  0% {
+    background-position: 0% 50%;
+  }
+
+  50% {
+    background-position: 100% 50%;
+  }
+
+  100% {
+    background-position: 0% 50%;
+  }
+}
+
+.cli-wea {
+  display: flex;
+  align-items: center;
+  font-size: 25px;
+  color: #ffffff;
+}
+
+.degree {
+  font-size: 20px;
+}
+
+.cli-wea p {
+  padding: 10px;
+  text-transform: capitalize;
+}
+
+.card > img {
+  width: 100px;
+  margin: auto;
+}
+
+.condition-weather {
+  font-size: 50px;
+}
+
+.wind {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.wind p {
+  padding: 10px;
+}
